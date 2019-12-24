@@ -1,26 +1,33 @@
-* {box-sizing:border-box}
+* {box-sizing:border-box;
+  font-family: 'Montserrat', sans-serif;
+}
 
 header h1{
     text-align: center;
     font-size: 2.5em;
+    margin: 1em;
 }
 
 .NavMenu{
     display: grid;
     grid-template-columns: 20% 60% 20%;
+    margin-bottom: 2em;
 }
 
 .SubMenu{
     display: flex;
+    position: relative;
    
 }
 
-.SubMenu p{
+.SubMenu a{
     padding-left: 4vw;
+    text-decoration: none;
+    color: black;
 }
 
 .SlideShowContainer {
-    max-width: 1000px;
+    width: 100%;
     position: relative;
     margin: auto;
     height: 450px;
@@ -37,12 +44,12 @@ header h1{
     width: auto;
     margin-top: -22px;
     padding: 20px;
-    color: rgb(0, 0, 0);
+    color: rgb(39, 33, 33);
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
-    background-color: hsl(0, 0%, 95%);
+    background-color: hsl(0, 0%, 100%);
   }
 
   .next {
@@ -56,11 +63,74 @@ header h1{
   }
 
   .text {
-    color: #f2f2f2;
+    color: #130d0d;
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;
-    bottom: 8px;
-    width: 100%;
+    left: 45%;
+    top: 25%;
+    max-width: 40%;
     text-align: center;
+  }
+
+  .text h2{
+    font-size: 3em;
+  }
+  .text p{
+    
+  }
+
+  .ViewMore{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 1em;
+    height: 10%;
+    width: 10%;
+    position: absolute;
+    left: 60%;
+    bottom: 20%;
+  }
+
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: rgb(255, 255, 255);
+  }
+
+                          /* NavImages */
+  
+  .SearchIcon{
+    background: url('/assets/magnifying-glass.svg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1em;
+    width: 1em;
+    position: absolute;
+    left: 10%;
+    /* top: 1em; */
+  }
+
+  .LikeIcon{
+    background: url(./assets/like.svg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1em;
+    width: 1em;
+    position: absolute;
+    left: 10%;
+    /* top: 1em; */
+  }
+
+  .ShoppingBagIcon{
+    background: url(./assets/shopping-bag.svg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1em;
+    width: 1em;
+    position: absolute;
+    left: 50%;
+    /* top: 1em; */
   }
