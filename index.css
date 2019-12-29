@@ -134,3 +134,129 @@ header h1{
     left: 50%;
     /* top: 1em; */
   }
+
+  .colection{
+    display: flex;
+    position: relative;
+    margin-top: 4em;
+  }
+  
+  .collection div:nth-child(1){
+    background:url(./assets/index.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:center;
+    position: absolute;
+    left: 0%;
+    height: 260px;
+    width: 33.3vw;
+    margin-top: 4em;
+
+  }
+
+  .collection div:nth-child(2){
+    background:url(./assets/index.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:center;
+    position: absolute;
+    left: 30%;
+    width: 33.3vw;
+    margin-top: 4em;
+
+  }
+
+  .collection div:nth-child(3){
+    background:url(./assets/index.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:center;
+    position: absolute;
+    left: 60%;
+    height: 260px;
+    width: 33.3vw;
+    margin-top: 4em;
+
+    /* display: inline-block; */
+  }
+
+  .collection div h2{
+    margin-left: 4em;
+    margin-top: 6em;
+  }
+
+  .collection p{
+    margin-left: 4em;
+  }
+
+  .rightFooter{
+    position: fixed;
+    right: 0%;
+    top: 65%;
+    background-color: transparent;
+    /* color: white; */
+    height: 40%;
+    width: 10em;
+  }
+
+  .wheel{
+    background: url(./assets/color-wheel.svg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    background-color:#B82222;
+    height: 50px;
+    width: 50px;
+    margin-left: 6em;
+    margin-bottom: 1em;
+  }
+
+  .cart{
+    background: url(./assets/shopping-cart.svg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    background-color:rgb(255, 255, 255);
+    height: 50px;
+    width: 50px;
+    margin-left: 6em;
+    margin-bottom: 1em;
+  }
+
+  .chat{
+    background: url(./assets/chat.svg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    background-color:rgb(209, 27, 27);
+    height: 40%;
+    width: 100%;
+    border-radius: 50%;
+    transform: scale(0.50);
+    position: relative;
+  }
+
+  .chat .p{
+    position: absolute;
+    right: 10%;
+    color: black;
+    
+  }
+
+  .Categories{
+    width: 100vw;
+    height: 20px;
+    position: absolute;
+    top: 140%;
+    left: 30%;
+
+  }
+
+  .Categories p{
+    display: inline;
+    text-align: center;
+    position: static;
+    left: 40%;
+    padding: 2em;
+    
+  }
