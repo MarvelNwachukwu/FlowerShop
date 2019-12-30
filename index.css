@@ -260,3 +260,112 @@ header h1{
     padding: 2em;
     
   }
+
+  .Showcase{
+    position: absolute;
+    top: 150%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .Showcase div:nth-child(1){
+    height: 423px;
+    width: 337px;
+    background-color: #F7F5F6;
+    margin-left: 30px;
+    background-image: url(./assets/images.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+  }
+
+  .Showcase div:nth-child(2){
+    height: 423px;
+    width: 337px;
+    background-color: #F7F5F6;
+    margin-left: 30px;
+    background-image: url(./assets/h-13-prod-2.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .Showcase div:nth-child(3){
+    height: 423px;
+    width: 337px;
+    background-color: #F7F5F6;
+    margin-left: 30px;
+    background-image: url(./assets/ShowCase3.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+
+  }
+
+  .Showcase div:nth-child(4){
+    height: 423px;
+    width: 337px;
+    background-color: #F7F5F6;
+    margin-left: 30px;
+    background-image: url(./assets/ShowCase4.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+  }
+
+  .Showcase div:nth-child(5){
+    height: 423px;
+    width: 337px;
+    background-color: #F7F5F6;
+    margin-left: 30px;
+    margin-top: 145px;
+    background-image: url(./assets/2019-12-30_13h58_58.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .Showcase div:nth-child(6){
+    height: 423px;
+    width: 337px;
+    background-color: #F7F5F6;
+    margin-left: 30px;
+    margin-top: 145px;
+    background-image: url(./assets/2019-12-30_13h59_43.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .Showcase div:nth-child(7){
+    height: 423px;
+    width: 337px;
+    background-color: #F7F5F6;
+    margin-left: 30px;
+    margin-top: 145px;
+    background-image: url(./assets/h-13-prod-7.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+  }
+
+  .Showcase div:nth-child(8){
+    height: 423px;
+    width: 337px;
+    background-color: #F7F5F6;
+    margin-left: 30px;
+    margin-top: 145px;
+    background-image: url(./assets/2019-12-30_14h00_52.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  /* .Showcase div:hover{
+    background-color: red;
+  } */
