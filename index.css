@@ -33,9 +33,9 @@ header h1{
     height: 450px;
   }
 
-  .mySlides {
-    /* display: none; */
-  }
+  /* .mySlides {
+    display: none;
+  } */
 
   .prev, .next {
     cursor: pointer;
@@ -76,9 +76,9 @@ header h1{
   .text h2{
     font-size: 3em;
   }
-  .text p{
+  /* .text p{
     
-  }
+  } */
 
   .ViewMore{
     text-decoration: none;
